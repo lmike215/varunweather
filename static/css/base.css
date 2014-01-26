@@ -10,6 +10,10 @@
 	-webkit-box-sizing:			border-box;
 }
 
+::selection { background:		rgba(255,255,255,.5); }
+
+::-moz-selection { background: 	rgba(255,255,255,.5); }
+
 body
 {
 	background: 				no-repeat center center fixed;
@@ -21,6 +25,21 @@ body
 	-moz-background-size:		cover;
 	-o-background-size:			cover;
 	-webkit-background-size:	cover;
+}
+
+.share
+{
+	padding:					20px;
+
+	position:					fixed;
+	top:						0;
+	left:						0;
+}
+
+.twitter-share-button
+{
+	display: 					block;
+	margin-bottom: 				10px;
 }
 
 .container
@@ -56,8 +75,9 @@ body
 .madeby
 {
 	font-size:					.8em;
+	font-weight:				bold;
 	padding:					20px;
-	text-shadow:				0 1px 0 #000;
+	text-shadow:				0 0 2px #000;
 
 	position:					fixed;
 	right:						0;
