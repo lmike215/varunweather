@@ -1,0 +1,55 @@
+*,
+*:after,
+*:before
+{
+	margin:						0;
+	padding:					0;
+
+	box-sizing:					border-box;
+	-moz-box-sizing:			border-box;
+	-webkit-box-sizing:			border-box;
+}
+
+body
+{
+	font:						1em Helvetica, Arial;
+}
+
+.container
+{
+	height:						639px;
+	margin-left:				-277.5px;
+	width:						555px;
+
+	position: 					fixed;
+	bottom:						0;
+	left:						50%;
+}
+
+.info
+{
+	padding:					20px;
+
+	position: 					fixed;
+	bottom:						0;
+	left:						0;
+}
+
+.info h1
+{
+	font-size:					3.5em;
+}
+
+.info h2
+{
+	font-size:					2.25em;
+}
+
+.madeby
+{
+	padding:					20px;
+
+	position:					fixed;
+	right:						0;
+	bottom:						0;
+}
